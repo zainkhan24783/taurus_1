@@ -1,0 +1,12 @@
+
+ Thread Group:
+  requests:
+   - label: blazedem
+   method: GET
+   url: http://blazedemo.com
+   - leabel: reserve
+   method: POST
+   url: http://blazedemo.com/reserve.php
+   body:
+    fromPort: Paris
+    toPort: Buenos Aires
